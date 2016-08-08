@@ -8,7 +8,9 @@
 		<header class="catalog-header">
 			<div class="container">
 				<div class="logo">
-					<img src="http://placehold.it/75x50">
+					<a href="#">
+						<img src="http://placehold.it/75x50">
+					</a>	
 				</div>
 					<nav class="catalog-navigation">
 						<ul>
@@ -21,8 +23,8 @@
 							<li>
 								<a href="#">Прайс-лист</a>
 							</li>
-							<li>
-								<a href="#">Магазин</a>
+							<li class="active">
+								Магазин
 							</li>
 							<li>
 								<a href="#">Контакты</a>
@@ -35,60 +37,61 @@
 			</div>
 		</header>	
 		<main class="container">
-			<div class="description">
 				<h1>Средства для ухода</h1>
-			</div>
-				<div class="breadcrumbs">
-					<nav class="breadcrumbs-navigation">
-						<ul>
+						<ul class="breadcrumbs">
 							<li>
 								<a href="#">Главная</a>
 							</li>
 							<li>
 								<a href="#">Магазин</a>
 							</li>
-							<li>
-								<a href="#">Средства для ухода</a>
+							<li class="active">
+								Средства для ухода
 							</li>
 						</ul>
-					</nav>
+				<div class="filtres">
+					<h2>Производители:</h2>
+					<form class="filter-form" action="/" method="post">
+						<div class="producers-filter">
+							<input type="checkbox" name="baxter" id="baxter-check" checked>
+							<label for="baxter-check">Baxter of California</label>
+							<input type="checkbox" name="mr-natty" id="mr-natty-check">
+							<label for="mr-natty-check">Mr Natty</label>
+							<input type="checkbox" name="suavecito" id="suavecito-check" checked>
+							<label for="suavecito-check">Suavecito</label>
+							<input type="checkbox" name="malin+goetz" id="malin+goetz-check">
+							<label for="malin+goetz-check">Malin+Goetz</label>
+							<input type="checkbox" name="Murrays" id="Murrays-check">
+							<label for="Murrays-check">Murray's</label>
+							<input type="checkbox" name="american-crew" id="american-crew-check" checked>
+							<label for="american-crew-check">American Crew</label>
+						</div>		
+						<div class="product-filter">
+							<h2>Группы товаров:</h2>
+							<label>
+								<input type="radio" name="shaving-accessories" value="shaving-accessories-check">
+								Бритвенные принадлежности
+							</label>
+							<label>
+							<input type="radio" name="preparations-care" value="preparations-care-check" checked>
+								Средства для  ухода
+							</label>
+							<label>
+							<input type="radio" name="accesories" value="accessories-check">
+								Аксессуары
+							</label>
+						</div>
+						<input type="submit" name="btn" value="Показать">
+					</form>
 				</div>
-				<div class="producers">
-					<b>Производители:</b>
-					<form class="filter-form" action="" method="post">
-						<input type="checkbox" name="baxter" id="baxter-check" checked>
-						<label for="baxter-check">Baxter of California</label>
-						<input type="checkbox" name="mr-natty" id="mr-natty-check">
-						<label for="mr-natty-check">Mr Natty</label>
-						<input type="checkbox" name="suavecito" id="suavecito-check" checked>
-						<label for="suavecito-check">Suavecito</label>
-						<input type="checkbox" name="malin+goetz" id="malin+goetz-check">
-						<label for="malin+goetz-check">Malin+Goetz</label>
-						<input type="checkbox" name="Murrays" id="Murrays-check">
-						<label for="Murrays-check">Murray's</label>
-						<input type="checkbox" name="american-crew" id="american-crew-check" checked>
-						<label for="american-crew-check">American Crew</label>
-					</form>	
-				</div>
-				<div class="product-groups">
-					<b>Группы товаров:</b>
-					<form class="filter-form" action="" method="post">
-						<input type="checkbox" name="shaving-accessories" id="shaving-accessories-check">
-						<label for="shaving-accessories-check">Бритвенные принадлежности</label>
-						<input type="checkbox" name="preparations-care" id="preparations-care-check" checked>
-						<label for="preparations-care-check">Средства для  ухода</label>
-						<input type="checkbox" name="accesories" id="accessories-check">
-						<label for="accessories-check">Аксессуары</label>
-					</form>	
-				</div>
-					<a class="show-btn" href="#">Показать</a>
-					<article class="product-img">
+				<div class="catalogue-cards">
+					<article class="product-card">		
 						<a href="#">
 							<img src="http://placehold.it/150x100">
 						</a>	
 							<p>
 								<a href="#">
-								Набор для путешествий </br>
+								Набор для путешествий 
 								«BAXTER OF CALIFORNIA»
 								</a>
 							</p>
@@ -96,13 +99,13 @@
 								2900 РУБ.<a class="buy-btn" href="#">Купить</a>
 							</div>	
 					</article>
-					<article class="product-img">
+					<article class="product-card">
 						<a href="#">
 							<img src="http://placehold.it/150x100">
 						</a>	
 							<p>
 								<a href="#">
-								 Увлажняющий кондиционер </br>
+								 Увлажняющий кондиционер 
 								«BAXTER OF CALIFORNIA»
 								 </a>
 							</p>
@@ -110,13 +113,13 @@
 								750 РУБ.<a class="buy-btn" href="#">Купить</a>
 							</div>	
 					</article>
-					<article class="product-img">
+					<article class="product-card">
 						<a href="#">
 							<img src="http://placehold.it/150x100">
 						</a>	
 							<p>
 								<a href="#">
-								Гель для волос </br>
+								Гель для волос 
 								«SUAVECITO»
 								</a>
 							</p>
@@ -124,13 +127,13 @@
 								290 РУБ.<a class="buy-btn" href="#">Купить</a>
 							</div>	
 					</article>
-					<article class="product-img">
+					<article class="product-card">
 						<a href="#">
 							<img src="http://placehold.it/150x100">
 						</a>	
 							<p>
 								<a href="#">
-								Глина для укладки волос </br>
+								Глина для укладки волос 
 								«AMERICAN CREW»
 								</a>
 							</p>
@@ -138,13 +141,13 @@
 								500 РУБ.<a class="buy-btn" href="#">Купить</a>
 							</div>	
 					</article>
-					<article class="product-img">
+					<article class="product-card">
 						<a href="#">
 							<img src="http://placehold.it/150x100">
 						</a>	
 							<p>
 								<a href="#">
-								Гель для волос </br>
+								Гель для волос 
 								«AMERICAN CREW»
 								</a>
 							</p>
@@ -152,13 +155,13 @@
 								300 РУБ.<a class="buy-btn" href="#">Купить</a>
 							</div>	
 					</article>
-					<article class="product-img">
+					<article class="product-card">
 						<a href="#">
 							<img src="http://placehold.it/150x100">
 						</a>	
 							<p>
 								<a href="#">
-								Набор для бритья </br>
+								Набор для бритья 
 								«BAXTER OF CALIFORNIA»
 								</a>
 							</p>
@@ -166,12 +169,13 @@
 								3900 РУБ.<a class="buy-btn" href="#">Купить</a>
 							</div>	
 					</article>
+				</div>	
 					<div class="paginator">
 						<a href="1">1</a>
-						<a href="2">2</a>
+						<span class="active">2</span>
 						<a href="3">3</a>
 						<a href="4">4</a>
-					</div>
+					</div>	
 				</main>
 				<footer class="catalog-footer">
 					<div class="container">
