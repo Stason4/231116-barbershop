@@ -3,5 +3,19 @@
 	line-height: 24px;
 	color: #f7f4f1;
 	font-weight: bold;
-	font-family: ""PT Sans", serif";
+	font-family: "PT Sans Narrow bold";
+}
+
+.index-content-title{
+	font-size: 30px;
+	line-height: 42px;
+	color: #000000;
+	font-family: "PT Sans Narrow bold"
+}
+
+.features-name{
+	font-size: 30px;
+	line-height: 42px;
+	color: #f7f4f1;
+	font-family: "PT Sans Narrow bold"
 }
