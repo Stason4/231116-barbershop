@@ -1,21 +1,168 @@
 ﻿body{
+	min-width: 1122px;
+	margin: 0;
+	padding: 0;
 	font-size: 14px;
 	line-height: 24px;
-	color: #f7f4f1;
+	color: black;
 	font-weight: bold;
 	font-family: "PT Sans Narrow bold";
 }
 
-.index-content-title{
-	font-size: 30px;
-	line-height: 42px;
-	color: #000000;
-	font-family: "PT Sans Narrow bold"
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
 }
 
-.features-name{
-	font-size: 30px;
-	line-height: 42px;
-	color: #f7f4f1;
-	font-family: "PT Sans Narrow bold"
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+  min-height: 70px;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  min-height: 70px;
+}
+
+.index-logo {
+  width: 368px;
+  min-height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  min-height: 175px;
+  margin-right: 20px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  min-height: 330px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  min-height: 330px;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
+}
+
+.second-header{
+  margin-bottom: 60px;
+}
+
+.filter{
+  float: left;
+  width: 200px;
+  height: 580px;
+}
+
+.product-filter [type="checkbox"], [type="radio"]{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.product-card{
+  width: 220px;
+  height: 285px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.paginator{
+  width: 194px;
+  height: 44px;
+  float: left;
+}
+
+.photo {
+  width: 460px;
+  height: 670px;
+  float: left;
+  margin-right: 90px;
+}
+
+.photo-composition{
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 0;
+  float: left;
+}
+.photo-composition:last-child{
+  margin-right: 0;
+}
+
+.photo-big{
+  text-decoration: none;
+  font-size: 0;
+  margin-bottom: 20px;
+}
+
+.description-text{
+  float: left;
+  width: 390px;
+  min-height: 195px;
+  margin-bottom: 35px;
+}
+
+.kit{
+  width: 240px;
+  min-height: 170px;
 }
