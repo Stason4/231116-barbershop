@@ -1,5 +1,5 @@
 ﻿body{
-	min-width: 1122px;
+	min-width: 1200px;
 	margin: 0;
 	padding: 0;
 	font-size: 14px;
@@ -24,6 +24,7 @@
 
 .main-header {
   margin-bottom: 60px;
+  outline: 1px solid black;
 }
 
 .main-navigation {
@@ -105,17 +106,27 @@
 
 .second-header{
   margin-bottom: 60px;
+  outline: 1px solid black;
 }
 
 .filter{
   float: left;
-  width: 200px;
-  height: 580px;
+  width: 230px;
+  min-height: 580px;
+  outline: 1px solid black;
+  margin-right: 10px;
 }
 
 .product-filter [type="checkbox"], [type="radio"]{
   display: block;
   margin-bottom: 10px;
+}
+
+.catalogue-cards{
+  min-width: 700px;
+  height: 592px;
+  padding: 0;
+  margin: 0;
 }
 
 .product-card{
@@ -124,12 +135,25 @@
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
+  outline: 1px solid black;
+}
+
+.product-card:nth-child(2){
+  float: right;
+  margin-right: 0;
+}
+
+.product-card:nth-child(5){
+  float: right;
+  margin-right: 0;
 }
 
 .paginator{
   width: 194px;
   height: 44px;
   float: left;
+  outline: 1px solid black;
+  margin-left: 240px;
 }
 
 .photo {
@@ -137,6 +161,7 @@
   height: 670px;
   float: left;
   margin-right: 90px;
+  outline: 1px solid black;
 }
 
 .photo-composition{
@@ -144,15 +169,22 @@
   text-decoration: none;
   font-size: 0;
   float: left;
+  width: 140px;
+  height: 150px;
+  outline: 1px solid black;
 }
 .photo-composition:last-child{
   margin-right: 0;
 }
 
 .photo-big{
+  width: 460px;
+  height: 500px;
+  float: left;
   text-decoration: none;
   font-size: 0;
   margin-bottom: 20px;
+  outline: 1px solid black;
 }
 
 .description-text{
@@ -160,6 +192,21 @@
   width: 390px;
   min-height: 195px;
   margin-bottom: 35px;
+  outline: 1px solid black;
+}
+
+.description-article{
+  float: right;
+}
+
+.description-paragraph{
+  margin-bottom: 40px;
+  outline: 1px solid black;
+}
+
+.price-btn{
+  margin-bottom: 65px;
+  outline: 1px solid black;
 }
 
 .kit{
