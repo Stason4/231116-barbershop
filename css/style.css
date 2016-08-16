@@ -212,4 +212,5 @@
 .kit{
   width: 240px;
   min-height: 170px;
+  outline: 1px solid black;
 }
