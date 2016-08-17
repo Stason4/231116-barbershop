@@ -1,12 +1,13 @@
 ﻿body{
-	min-width: 1200px;
+	min-width: 940px;
 	margin: 0;
-	padding: 0;
+	padding: 0 10;
 	font-size: 14px;
 	line-height: 24px;
 	color: black;
 	font-weight: bold;
 	font-family: "PT Sans Narrow bold";
+  background: #f7f4f1;
 }
 
 .clearfix::after {
@@ -20,27 +21,27 @@
   width: 940px;
   margin: 0 auto;
   padding: 0 10px;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
   background: #f7f4f1;
 }
 
 .main-header {
   margin-bottom: 60px;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
 }
 
 .main-navigation {
   float: left;
   width: 780px;
   min-height: 70px;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
 }
 
 .user-block {
   float: right;
   width: 140px;
   min-height: 70px;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
 }
 
 .index-logo {
@@ -87,6 +88,7 @@
   margin-top: 65px;
   padding-top: 60px;
   padding-bottom: 40px;
+  background: black;
 }
 
 .footer-contacts {
@@ -110,7 +112,7 @@
 
 .second-header{
   margin-bottom: 60px;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
   background: #000000;
 }
 
@@ -118,20 +120,20 @@
   float: left;
   width: 640px;
   min-height: 70px;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
   background: #000000;
 }
 
 .logo{
   width: 140px;
   height: 40px;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
   background: black;
   float: left;
 }
 
 .catalog-title{
-  outline: 2px solid yellow;
+  outline: 2px black;
   text-transform: uppercase;
   font-size: 30px;
   line-height: 42px;
@@ -139,7 +141,7 @@
 }
 
 .breadcrumbs{
-  outline: 2px solid yellow;
+  outline: 2px black;
   background: #778bd7;
 }
 
@@ -148,7 +150,7 @@
   float: left;
   width: 230px;
   min-height: 580px;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
   margin-right: 10px;
   background: #eac49f;
 }
@@ -163,7 +165,7 @@
   float: left;
   padding: 0;
   margin: 0;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
 }
 
 .product-card{
@@ -172,7 +174,7 @@
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
   background: #9bb3de;
 }
 
@@ -184,7 +186,7 @@
 .paginator{
   width: 194px;
   float: left;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
 }
 
 .photo {
@@ -192,7 +194,7 @@
   height: 670px;
   float: left;
   margin-right: 90px;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
 }
 
 .photo-composition{
@@ -202,7 +204,7 @@
   float: left;
   width: 140px;
   height: 150px;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
 }
 
 .photo-composition:last-child{
@@ -216,7 +218,7 @@
   text-decoration: none;
   font-size: 0;
   margin-bottom: 20px;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
 }
 
 .description-text{
@@ -224,7 +226,7 @@
   width: 390px;
   min-height: 195px;
   margin-bottom: 35px;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
 }
 
 .description-article{
@@ -233,17 +235,17 @@
 
 .description-paragraph{
   margin-bottom: 40px;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
 }
 
 .price-btn{
   margin-bottom: 65px;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
 }
 
 .kit{
   width: 240px;
   min-height: 170px;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
   margin: 0;
 }
