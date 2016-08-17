@@ -20,23 +20,27 @@
   width: 940px;
   margin: 0 auto;
   padding: 0 10px;
+  outline: 2px solid yellow;
+  background: #f7f4f1;
 }
 
 .main-header {
   margin-bottom: 60px;
-  outline: 1px solid black;
+  outline: 2px solid yellow;
 }
 
 .main-navigation {
   float: left;
   width: 780px;
   min-height: 70px;
+  outline: 2px solid yellow;
 }
 
 .user-block {
   float: right;
   width: 140px;
   min-height: 70px;
+  outline: 2px solid yellow;
 }
 
 .index-logo {
@@ -106,27 +110,60 @@
 
 .second-header{
   margin-bottom: 60px;
-  outline: 1px solid black;
+  outline: 2px solid yellow;
+  background: #000000;
 }
+
+.second-navigation {
+  float: left;
+  width: 640px;
+  min-height: 70px;
+  outline: 2px solid yellow;
+  background: #000000;
+}
+
+.logo{
+  width: 140px;
+  height: 40px;
+  outline: 2px solid yellow;
+  background: black;
+  float: left;
+}
+
+.catalog-title{
+  outline: 2px solid yellow;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 42px;
+  background: #778bd7;
+}
+
+.breadcrumbs{
+  outline: 2px solid yellow;
+  background: #778bd7;
+}
+
 
 .filter{
   float: left;
   width: 230px;
   min-height: 580px;
-  outline: 1px solid black;
+  outline: 2px solid yellow;
   margin-right: 10px;
+  background: #eac49f;
 }
 
 .product-filter [type="checkbox"], [type="radio"]{
-  display: block;
   margin-bottom: 10px;
+  display: block;
 }
 
 .catalogue-cards{
-  min-width: 700px;
-  height: 592px;
+  width: 700px;
+  float: left;
   padding: 0;
   margin: 0;
+  outline: 2px solid yellow;
 }
 
 .product-card{
@@ -135,25 +172,19 @@
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
-  outline: 1px solid black;
+  outline: 2px solid yellow;
+  background: #9bb3de;
 }
 
-.product-card:nth-child(2){
-  float: right;
-  margin-right: 0;
-}
-
-.product-card:nth-child(5){
+.product-card:nth-child(3n){
   float: right;
   margin-right: 0;
 }
 
 .paginator{
   width: 194px;
-  height: 44px;
   float: left;
-  outline: 1px solid black;
-  margin-left: 240px;
+  outline: 2px solid yellow;
 }
 
 .photo {
@@ -161,7 +192,7 @@
   height: 670px;
   float: left;
   margin-right: 90px;
-  outline: 1px solid black;
+  outline: 2px solid yellow;
 }
 
 .photo-composition{
@@ -171,8 +202,9 @@
   float: left;
   width: 140px;
   height: 150px;
-  outline: 1px solid black;
+  outline: 2px solid yellow;
 }
+
 .photo-composition:last-child{
   margin-right: 0;
 }
@@ -184,7 +216,7 @@
   text-decoration: none;
   font-size: 0;
   margin-bottom: 20px;
-  outline: 1px solid black;
+  outline: 2px solid yellow;
 }
 
 .description-text{
@@ -192,7 +224,7 @@
   width: 390px;
   min-height: 195px;
   margin-bottom: 35px;
-  outline: 1px solid black;
+  outline: 2px solid yellow;
 }
 
 .description-article{
@@ -201,16 +233,17 @@
 
 .description-paragraph{
   margin-bottom: 40px;
-  outline: 1px solid black;
+  outline: 2px solid yellow;
 }
 
 .price-btn{
   margin-bottom: 65px;
-  outline: 1px solid black;
+  outline: 2px solid yellow;
 }
 
 .kit{
   width: 240px;
   min-height: 170px;
-  outline: 1px solid black;
+  outline: 2px solid yellow;
+  margin: 0;
 }
